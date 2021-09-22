@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Event" representedClassName="Event" syncable="YES" codeGenerationType="class">
+        <attribute name="datetime" optional="YES" attributeType="String"/>
+        <attribute name="event" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Friend" representedClassName="Friend" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Friend" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="Event" positionX="-54" positionY="27" width="128" height="74"/>
+    </elements>
+</model>
